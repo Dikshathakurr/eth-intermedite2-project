@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quickbuy Contract Interface</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <button id="connect" onclick="connect()">Connect to Wallet</button> 
+    <h1>Quickbuy Contract Interface</h1>
+
+    <div>
+        <h2>Add Item</h2>
+        <input type="text" id="itemName" placeholder="Item Name">
+        <input type="number" id="itemQuantity" placeholder="Quantity">
+        <input type="number" id="itemCost" placeholder="Cost">
+        <button onclick="addItem()">Add Item</button>
+    </div>
+
+    <div>
+        <h2>Buy Goodie</h2>
+        <input type="text" id="goodieName" placeholder="Goodie Name">
+        <button onclick="buyGoodie()">Buy Goodie</button>
+        <p id="buyGoodieResult"></p>
+    </div>
+
+    <div>
+        <h2>Check Goodie</h2>
+        <input type="text" id="checkGoodieName" placeholder="Goodie Name">
+        <button onclick="checkGoodie()">Check Goodie</button>
+        <p id="checkGoodieQuantity"></p>
+    </div>
+
+    <div>
+        <h2>Check Cost</h2>
+        <input type="text" id="checkCostName" placeholder="Goodie Name">
+        <button onclick="checkCost()">Check Cost</button>
+        <p id="checkGoodieCost"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</html>
