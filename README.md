@@ -25,8 +25,10 @@ To run this program, First create a directory , switch to that directory and ope
  
 and paste this for the value of contractABI.
 
-5) Now open index.html. 
-6) In metamask set network to localhost 
+5) Now open index.html.
+   
+6) In metamask set network to localhost
+   
 7) click connect wallet now you can interact with UI add/remove member as hod/faculity, send messages. And at last can check the designation of member in integer form(in console) by providing its address.
 
 # Authors
